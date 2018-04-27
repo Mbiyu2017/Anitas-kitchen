@@ -1,0 +1,13 @@
+h2{
+  text-align: center;
+}
+.jumbotron{
+  color:white;
+  background-image: url("../img/backgrounds/landing.jpg");
+  background-size: cover;
+}
+.image-center{
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
