@@ -5,9 +5,80 @@ h2{
   color:white;
   background-image: url("../img/backgrounds/landing.jpg");
   background-size: cover;
+  margin: 0px;
 }
 .image-center{
   display: block;
   margin-left: auto;
   margin-right: auto;
+}
+.hamburger-menu{
+  width: 30px;
+  height: 5px;
+  background-color: #FAFCFC;
+  border-radius: 5px;
+}
+.hamburger-menu:after{
+  content:'';
+  width: 30px;
+  height:5px;
+  background-color: #FAFCFC;
+  position: absolute;
+  border-radius: 5px;
+  top:10px;
+}
+.hamburger-menu:before{
+  content:'';
+  width: 30px;
+  height:5px;
+  background-color: #FAFCFC;
+  position: absolute;
+  border-radius: 5px;
+  top:20px;
+}
+.breakfast{
+  background-image: url("../img/foodtop/breakfast.jpg");
+  color:white;
+  height: 200px;
+  text-align: center;
+}
+.lunch{
+  background-image: url("../img/foodtop/lunch.jpg");
+  color:white;
+  height: 200px;
+  text-align: center;
+}
+.dinner{
+  background-image: url("../img/foodtop/dinner.jpg");
+  color:white;
+  height: 200px;
+  text-align: center;
+}
+.party-time{
+  background-color:#F15A29;
+  color:white;
+  height: 100px;
+  text-align: center;
+  margin:0;
+
+}
+.happy-hour{
+  background-color:#E1E5E5;
+  color:black;
+  height: 100px;
+  text-align: center;
+  margin:0;
+}
+.image-border{
+  border-style: outset;
+}
+.foodsBg{
+  background-image: url("../img/backgrounds/foodsBg.jpg");
+  background-size: cover;
+  height: 300px;
+}
+.subscribebg{
+  background-image: url("../img/backgrounds/subscribe.jpg");
+  height: 200px;
+  background-size: cover;
 }
