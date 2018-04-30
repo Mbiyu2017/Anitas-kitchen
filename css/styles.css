@@ -17,6 +17,7 @@ h2{
   height: 5px;
   background-color: #FAFCFC;
   border-radius: 5px;
+  margin: -17px;
 }
 .hamburger-menu:after{
   content:'';
@@ -41,6 +42,7 @@ h2{
   color:white;
   height: 200px;
   text-align: center;
+  vertical-align: middle;
 }
 .lunch{
   background-image: url("../img/foodtop/lunch.jpg");
@@ -60,6 +62,7 @@ h2{
   height: 100px;
   text-align: center;
   margin:0;
+  padding: 50px;
 
 }
 .happy-hour{
@@ -68,17 +71,102 @@ h2{
   height: 100px;
   text-align: center;
   margin:0;
+  padding: 50px;
 }
 .image-border{
   border-style: outset;
+  border: 5px;
 }
 .foodsBg{
   background-image: url("../img/backgrounds/foodsBg.jpg");
   background-size: cover;
-  height: 300px;
+  height: 400px;
+  color: white;
 }
 .subscribebg{
   background-image: url("../img/backgrounds/subscribe.jpg");
   height: 200px;
   background-size: cover;
+  color:white;
+}
+#footer{
+  background-color:#F15A29;
+  color:white;
+  height: 200px;
+  text-align: center;
+}
+.hours{
+  padding: 0;
+}
+.thumbnail-shadow{
+  box-shadow: 5px,5px,5px,5px;
+}
+.vl{
+  border-left: 2px solid #E6EAEA;
+  height: 250px;
+}
+input.transparent-input{
+  background-color: #E6EAEA;
+}
+.icon{
+  position: relative;
+}
+.nav ul {
+  list-style: none;
+  text-align: center;
+  padding: 0;
+  margin: 0;
+}
+.nav ul li {
+    font-family: 'Roboto', sans-serif;
+    border-bottom: none;
+    height: 86px;
+    line-height: 86px;
+    font-size: 14px;
+    display: inline-block;
+    float:left;
+    margin: 0 auto;
+}
+
+.nav ul li a {
+  text-decoration: none;
+  color:white;
+  display: block;
+  transition: .3s background-color;
+  padding:0 24px;
+}
+
+.nav ul li a:hover {
+  background-color:white;
+  color:#F15A29;
+}
+.nav a {
+    border-bottom:none;
+    color:white;
+}
+
+.nav li ul {
+    position:absolute;
+    display:none;
+    width:inherit;
+	text-align:left;
+}
+
+.nav li:hover ul {
+    display:block;
+}
+.nav-border{
+  border-style: solid;
+  border-width: 3.5px;
+  border-color: white;
+}
+.customers{
+  height: 350px;
+}
+.p-img{
+  color:#F15A29;
+  text-align:justify;
+}
+.button{
+  color: #F15A29;
 }

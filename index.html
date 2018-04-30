@@ -18,7 +18,7 @@
           </div>
         </div>
         <div class="row">
-          <div class="col-md-3">
+          <div class="col-md-3 hours">
               <div class="happy-hour"><h3>Happy Hour</h3></div>
               <div class="party-time"><h3>Party Time</h3></div>
           </div>
@@ -28,7 +28,7 @@
         </div>
         <div class="row">
           <div class="col-md-6">
-            <div class="image-border">
+            <div class="img-thumbnail">
               <div>
                 <img src="img/fastFood1.jpg" alt="fastfood">
               </div>
@@ -38,19 +38,21 @@
           </div>
         </div>
           <div class="col-md-6">
-            <h2>Fast Food</h2>
-            <h3>You'll love our delicious fast food</h3>
+            <h3><strong>Fast Food</strong></h3>
+            <h4><strong>You'll love our delicious fast food</strong></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin magna enim, egestas ut urna sed, lobortis suscipit odio. Etiam nec efficitur tellus, quis molestie lorem. Nulla facilisi. Aenean efficitur mattis turpis, id fermentum ipsum dictum sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis vitae tellus congue, tristique leo sit amet, rhoncus lacus. Cras in quam finibus, facilisis quam non, viverra odio. Cras tempor leo faucibus ipsum tempus, id iaculis tortor tempor. Ut laoreet quam nec varius fermentum. Praesent ut ex sed risus egestas tincidunt. Cras at luctus nisi. Nullam leo sapien, fermentum non lacus vel, dapibus aliquet massa. Quisque ac vehicula odio, ut pulvinar purus.</p>
+            <button class="button btn btn-default">VIEW GALLERY ></button>
           </div>
         </div>
         <div class="row">
           <div class="col-md-6">
-            <h2>Drinks</h2>
-            <h3>We also Produce Delicious Drinks</h3>
+            <h3><strong>Drinks</strong></h3>
+            <h4><strong>We also Produce Delicious Drinks</strong></h4>
             <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin magna enim, egestas ut urna sed, lobortis suscipit odio. Etiam nec efficitur tellus, quis molestie lorem. Nulla facilisi. Aenean efficitur mattis turpis, id fermentum ipsum dictum sed. Vestibulum ante ipsum primis in faucibus orci luctus et ultrices posuere cubilia Curae; Duis vitae tellus congue, tristique leo sit amet, rhoncus lacus. Cras in quam finibus, facilisis quam non, viverra odio. Cras tempor leo faucibus ipsum tempus, id iaculis tortor tempor. Ut laoreet quam nec varius fermentum. Praesent ut ex sed risus egestas tincidunt. Cras at luctus nisi. Nullam leo sapien, fermentum non lacus vel, dapibus aliquet massa. Quisque ac vehicula odio, ut pulvinar purus.</p>
+            <button class="button btn btn-default">VIEW GALLERY ></button>
           </div>
           <div class="col-md-6">
-            <div class="row">
+            <div class="img-thumbnail">
               <div class="col-md-6"><img src="img/drink1.jpg"></div>
               <div class="col-md-6"><img src="img/drink2.jpg"></div>
             </div>
@@ -58,21 +60,58 @@
         </div>
         <div class="foodsBg row">
           <!--Will contain food menu-->
+
+            <div class="nav">
+              <ul>
+                <li class="Fastfood"><a href="#"><strong>Fast Food</strong></a></li>
+                <li class="Drinks"><a href="#"><strong>Drinks</strong></a></li>
+                <li class="Chicken"><a href="#"><strong>Chicken</strong></a></li>
+                <li class="Rice"><a href="#"><strong>Rice</strong></a></li>
+              </ul>
+            </div>
+                <div class="col-md-4"><img class="img-thumbnail" src="img/fastfood/beefBurger.jpg"><p class="p-img"><strong>Beef Burger</strong></p></div>
+                <div class="col-md-4"><img class="img-thumbnail" src="img/fastfood/chickenBurger.jpg"><p class="p-img"><strong>Chicken Burger</strong></p></div>
+                <div class="col-md-4"><img class="img-thumbnail" src="img/fastfood/chickenPizza.jpg"><p class="p-img"><strong>Chicken Pizza</strong></p></div>
         </div>
         <div>
           <!--Will contain customer info -->
+          <div class="row customers">
+            <div class="panel panel-info">
+              <div class="col-md-8">
+                <h3><strong>Our Happy Customers</strong></h3>
+                <h4><strong>George Richard</strong></h4>
+                <p>Great food!Menu is awesome.Their foods are not only great but in the right price.I highly recommend them :)</p>
+                <img src="img/customers/p1.png"><img src="img/customers/p2.png"><img src="img/customers/p3.png">
+              </div>
+              <div class="col-md-4 vl">
+                <h4><strong>About Menu</strong></h4>
+                <p>We are menu little team of 7 members.</p>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Morbi molestie finibus nisl et pretium. Vivamus a consequat mauris. In hac habitasse platea dictumst. Aliquam non tellus nec sapien placerat convallis eu at purus. Donec eu euismod magna. Morbi a arcu nibh. In hac habitasse platea dictumst. Pellentesque tincidunt sagittis ante, sed elementum augue viverra quis. Aliquam venenatis at ex in pharetra. Ut finibus egestas neque vel interdum. Vestibulum id viverra ante. Duis eu quam ut nunc tempus ultrices eu quis tellus.</p>
+              </div>
+            </div>
+          </div>
         </div>
-        <div class="subscribebg">
-          <!--Will contain email subscribe button -->
+        <div class="subscribebg row">
+          <h2><strong>Get our daily food items delivered to your email.</strong></h2>
+          <div class="col-md-8">
+            <input class="form-control transparent-input" type="text" placeholder="Your email">
+          </div>
+          <div class="col-md-4">
+            <button class="btn btn-danger">Subscribe</button>
+          </div>
         </div>
-        <footer>
-          <!-- will contain footer section -->
-          <h2>MENU</h2>
-          <p><strong>Thats What we are</strong></p>
+        <footer id="footer" class="row">
+             <h3><img class="icon" src="img/footerlogos/logo_white.png"><strong>MENU</strong></h3>
+          <div>
+            <p><strong>Thats What we are</strong></p>
+          </div>
+          <div>
+            <img src="img/footerlogos/facebook.png"><img src="img/footerlogos/pinterest.png"><img src="img/footerlogos/twitter.png">
+          </div>
+          <div>
+            <p>2016 Menu Restuarant</p>
+          </div>
         </footer>
-
     </div>
-    </body>
-
-
+  </body>
 </html>
