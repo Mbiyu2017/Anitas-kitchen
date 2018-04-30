@@ -1,0 +1,40 @@
+# ANITAS KITCHEN
+
+#### A WEBSITE OF A RESTUARANT AND FOODS PLUS SERVICES THEY OFFER, 2018/30/4
+
+#### By **Mbiyu Ben**
+
+## Description
+This is a webite of Anitas Kitchen restuarant.
+It has information about the services offered there.
+Also information on foods served.
+Uses div elements to seperate content and put it into rows and columns.
+Contains image gallery of fast foods.
+Contains image gallery of customers.
+Has a footer section that has png images of the social networks.
+A navigation bar is included in the fast foods section.
+Hamburger menu included to display contents inside
+Bootsrap buttons and classes included to style elements
+
+
+## Setup/Installation Requirements
+* Open link below to take you to the live site
+
+## Known Bugs
+Subscribe button doesnt work for the mail chimp API
+
+
+## Technologies Used
+Project built in
+HTML
+CSS
+BOOTSTRAP
+
+
+## Support and contact details
+Incase of additional errors and bugs, contact the developer through the email benedictmbiyuthangwa@gmail.com
+
+### License
+*The MIT open source license is included for this website. Available in the license file in the repository*
+Copyright (c) 2018 **Benedict Mbiyu**
+  
