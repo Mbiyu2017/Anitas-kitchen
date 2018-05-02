@@ -12,31 +12,6 @@ h2{
   margin-left: auto;
   margin-right: auto;
 }
-.hamburger-menu{
-  width: 30px;
-  height: 5px;
-  background-color: #FAFCFC;
-  border-radius: 5px;
-  margin: -17px;
-}
-.hamburger-menu:after{
-  content:'';
-  width: 30px;
-  height:5px;
-  background-color: #FAFCFC;
-  position: absolute;
-  border-radius: 5px;
-  top:10px;
-}
-.hamburger-menu:before{
-  content:'';
-  width: 30px;
-  height:5px;
-  background-color: #FAFCFC;
-  position: absolute;
-  border-radius: 5px;
-  top:20px;
-}
 .breakfast{
   background-image: url("../img/foodtop/breakfast.jpg");
   color:white;
@@ -181,4 +156,9 @@ input.transparent-input{
 }
 .button{
   color: #F15A29;
+}
+#topmenu{
+  height:100vh;
+  background-color: #F15A29;
+  display:none;
 }
