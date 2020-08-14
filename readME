@@ -1,10 +1,10 @@
-# ANITAS KITCHEN
+#ANITAS KITCHEN
 
-#### A WEBSITE OF A RESTUARANT AND FOODS PLUS SERVICES THEY OFFER, 2018/30/4
+####A WEBSITE OF A RESTUARANT AND FOODS PLUS SERVICES THEY OFFER, 2018/30/4
 
-#### By **Mbiyu Ben**
+####By **Mbiyu Ben**
 
-## Description
+##Description
 This is a webite of Anitas Kitchen restuarant.
 It has information about the services offered there.
 Also information on foods served.
@@ -17,25 +17,25 @@ Hamburger menu included to display contents inside
 Bootsrap buttons and classes included to style elements
 
 
-## Setup/Installation Requirements
+##Setup/Installation Requirements
 * Open link below to take you to the live site
 https://mbiyu2017.github.io/Anitas-kitchen/
 
-## Known Bugs
+##Known Bugs
 Subscribe button doesnt work for the mail chimp API
 
 
-## Technologies Used
+##Technologies Used
 Project built in
 HTML
 CSS
 BOOTSTRAP
 
 
-## Support and contact details
+##Support and contact details
 Incase of additional errors and bugs, contact the developer through the email benedictmbiyuthangwa@gmail.com
 
-### License
+###License
 *The MIT open source license is included for this website. Available in the license file in the repository*
 Copyright (c) 2018 **Benedict Mbiyu**
   
